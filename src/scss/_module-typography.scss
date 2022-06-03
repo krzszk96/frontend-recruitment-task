@@ -22,6 +22,11 @@
   font-size: 42px;
   line-height: 120%;
   margin: 0 0 20px 50px;
+
+  @include respond-to('small'){
+    font-size: 32px;
+    margin: 0 0 10px 0;
+  }
 }
 #gravity .alert-desc{
   display: flex;
@@ -32,6 +37,11 @@
   font-size: 16px;
   line-height: 150%;
   margin: 0 0 0 50px;
+  white-space: nowrap;
+
+  @include respond-to('small'){
+    margin: 0;
+  }
 }
 #gravity #displayclicks{
   margin: 0 4px;
