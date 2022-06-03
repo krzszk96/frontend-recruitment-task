@@ -39,3 +39,18 @@
 #gravity .close:after {
   transform: rotate(-45deg);
 }
+#gravity #moreclicks{
+  display: none;
+  margin-left: 20px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: $primary-beige;
+  color: $primary-black;
+  border-radius: 32px;
+  padding: 10px 40px;
+  margin: 10px 0 0 50px;
+  font-size: 16px;
+}
