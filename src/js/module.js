@@ -2,9 +2,9 @@ const close = document.getElementById('alert-popup')
 const back = document.getElementById('tint-background')
 const displayClicks = document.getElementById('displayclicks')
 const moreclicks = document.getElementById('moreclicks')
+
 var userclicks =0
 userclicks = localStorage.getItem('userclicks')
-
 
 function showPopup(){
   close.style.display = "block"
