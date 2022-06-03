@@ -22,15 +22,18 @@
                 <div class="text">Infinitely scalable, feature-rich and cloud-native data management and protection for
                     modern and legacy infrastructures and SaaS platforms, managed via a single app with no hardware
                     required.</div>
-                <button class="modbtn">Button</button>
+                <button class="modbtn" onclick="showPopup()">Button</button>
             </div>
         </div>
         <div class="alert-popup" id="alert-popup">
             <div class="alert-title">Alert!</div>
-            <div class="alert-desc">You have clicked <b>X times</b> to related button</div>
-            <a href="#" class="close"></a>
+            <div class="alert-desc">You have clicked <b>
+                    <p id="displayclicks">X times</p>
+                </b> to related button</div>
+            <a href="#" class="close" onclick="closePopup()"></a>
         </div>
-        <div class="tint-background"></div>
+        <div class="tint-background" id="tint-background"></div>
     </section>
 
+    <script src="./src/js/module.js"></script>
 </body>
