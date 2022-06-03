@@ -1,0 +1,16 @@
+#gravity .modbtn{
+  background-color: $primary-beige;
+  color: $btn-color;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 40px;
+  gap: 10px;
+  border-radius: 32px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}

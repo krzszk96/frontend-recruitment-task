@@ -1,0 +1,13 @@
+#gravity{
+  display: flex;
+  justify-content: center;
+}
+#gravity .container{
+  display: flex;
+  align-items: center;  
+  max-width: 1440px;
+}
+#gravity .col{
+  padding: 50px;
+  width: 50%;
+}
